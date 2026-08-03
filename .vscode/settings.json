@@ -1,0 +1,66 @@
+{
+    "omnisharp.enableEditorConfigSupport": true,
+    "dotnet.formatting.organizeImportsOnFormat": true,
+    "dotnet.testWindow.enableTestExplorerDiff": false,
+    "dotnet.unitTests.runSettingsPath": "./tests/TestSettings.runsettings",
+    "dotnet.defaultSolution": "Website.slnx",
+    "git.enableSmartCommit": true,
+    "git.enableCommitSigning": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.rulers": [
+        120
+    ],
+    "files.associations": {
+        "*.min.*": "min"
+    },
+    "[csharp][xml]": {
+        "editor.defaultFormatter": "csharpier.csharpier-vscode"
+    },
+    "[min]": {
+        "editor.formatOnSave": false
+    },
+    "cSpell.words": [
+        "Analyser",
+        "ASPNETCORE",
+        "Blazor",
+        "buildtransitive",
+        "Bunit",
+        "contentfiles",
+        "cooldown",
+        "globaltool",
+        "importmap",
+        "LASTEXITCODE",
+        "Lindhart",
+        "Meziantou",
+        "netstandard",
+        "onclick",
+        "Pkgcoverlet",
+        "reportgenerator",
+        "Roslynator",
+        "runsettings",
+        "targetdir",
+        "testsettings",
+        "Werecodent",
+        "Xunit"
+    ],
+    "cSpell.ignorePaths": [
+        "**/usr/local/share/dotnet",
+        "**/var/folders/",
+        ".gitignore",
+        ".editorconfig",
+        ".vscode/",
+        "nuget.config",
+        "artifacts/",
+        "*.min.*",
+        "*.css"
+    ],
+    "cSpell.enabledNotifications": {
+        "Lines too Long": false,
+        "Maximum Word Length Exceeded": false,
+    },
+    "editor.inlineSuggest.enabled": false,
+    "explorer.autoReveal": "focusNoScroll"
+}

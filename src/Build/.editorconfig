@@ -1,0 +1,4 @@
+[*.cs]
+
+# Not needed for the build project.
+dotnet_diagnostic.CA2007.severity = None
