@@ -5,7 +5,7 @@ curl -sSL https://dot.net/v1/dotnet-install.sh > artifacts/install/dotnet-instal
 chmod +x artifacts/install/dotnet-install.sh
 ./artifacts/install/dotnet-install.sh -c 10.0 -InstallDir artifacts/dotnet
 
-dotnet --version
-./build/run.sh publish
+./artifacts/dotnet/dotnet --version
+./artifacts/dotnet/dotnet publish --configuration Release --property:PublishDir="artifacts/releases"
 
 #$ARTIFACT_DIR/dotnet publish -c Release -o ./artifacts/releases
