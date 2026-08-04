@@ -1,5 +1,9 @@
 {
     "name": "werecodentmainwebsite",
-    "main": "./artifacts/releases/wwwroot",
-    "compatibility_date": "2026-08-04"
+    "main": "./artifacts/releases/wwwroot/index.html",
+    "compatibility_date": "2026-08-04",
+    "assets": {
+        "directory": "./artifacts/releases/wwwroot",
+        "binding": "ASSETS"
+    }
 }
