@@ -1,10 +1,6 @@
 #!/bin/sh
 
-SCRIPT_DIR=$(cd "$( dirname "$BASH_SOURCE[0]" )" && pwd)
-echo $SCRIPT_DIR
-REPO_DIR=$( dirname "$SCRIPT_DIR" )
-echo $REPO_DIR
-ARTIFACT_DIR="$REPO_DIR/artifacts"
+ARTIFACT_DIR="$(cd "$( dirname "$BASH_SOURCE[0]" )" && pwd)/artifacts"
 echo $ARTIFACT_DIR
 
 mkdir -p artifacts/install
