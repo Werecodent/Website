@@ -1,0 +1,26 @@
+[*.cs]
+
+# Needed for testing and cleaner tests.
+dotnet_diagnostic.CA1002.severity = None
+dotnet_diagnostic.CA1034.severity = None
+dotnet_diagnostic.CA1812.severity = None
+
+# Unnecessary for tests.
+dotnet_diagnostic.CA1062.severity = None
+dotnet_diagnostic.CS1591.severity = None
+dotnet_diagnostic.VSTHRD200.severity = None
+
+# Noise when using fluent APIs.
+dotnet_diagnostic.IDE0058.severity = None
+
+# Default of .ConfigureAwait(true) for tests is proper.
+dotnet_diagnostic.CA2007.severity = None
+dotnet_diagnostic.MA0004.severity = None
+dotnet_diagnostic.VSTHRD111.severity = None
+
+# Conflict for test name matching.
+dotnet_diagnostic.CA1707.severity = None
+dotnet_diagnostic.MA0048.severity = None
+
+# False positive when calling tester methods.
+dotnet_diagnostic.S2699.severity = None
