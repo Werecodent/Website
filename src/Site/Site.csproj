@@ -3,8 +3,6 @@
     <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>Werecodent.Site</RootNamespace>
     <OverrideHtmlAssetPlaceholders>true</OverrideHtmlAssetPlaceholders>
-    <PublishTrimmed>true</PublishTrimmed>
-    <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
   </PropertyGroup>
 
   <ItemGroup>

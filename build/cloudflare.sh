@@ -7,5 +7,3 @@ chmod +x artifacts/install/dotnet-install.sh
 
 ./artifacts/dotnet/dotnet --version
 ./artifacts/dotnet/dotnet publish --configuration Release --property:PublishDir="artifacts/releases"
-
-#$ARTIFACT_DIR/dotnet publish -c Release -o ./artifacts/releases
