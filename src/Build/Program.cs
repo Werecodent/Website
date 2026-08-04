@@ -114,6 +114,7 @@ internal static class Program
                 "--no-build",
                 "--no-restore",
                 "--configuration Release",
+                $"--output \"{releaseDir}\"",
                 $"--property:PublishDir=\"{releaseDir}\""
             )
         );
