@@ -103,8 +103,8 @@ internal static class Program
     /// <summary>Prepares the solution for display.</summary>
     private static Task PublishAsync()
     {
-        string releaseDir = Path.Combine(_ArtifactDir, "releases");
-        EnsureEmpty(releaseDir);
+        string websiteDir = Path.Combine(_ArtifactDir, "website");
+        EnsureEmpty(websiteDir);
 
         return RunAsync(
             "dotnet",
@@ -114,7 +114,7 @@ internal static class Program
                 "--no-build",
                 "--no-restore",
                 "--configuration Release",
-                $"--property:PublishDir=\"{releaseDir}\""
+                $"--property:PublishDir=\"{websiteDir}\""
             )
         );
     }
