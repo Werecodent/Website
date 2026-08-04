@@ -1,9 +1,8 @@
 {
     "name": "site",
     "compatibility_date": "2026-08-04",
-    "main": "./artifacts/releases/dotnet.js",
     "assets": {
         "directory": "./artifacts/releases/wwwroot",
-        "binding": "ASSETS"
+        "not_found_handling": "single-page-application"
     }
 }
