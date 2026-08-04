@@ -5,7 +5,7 @@ REPO_DIR=$( dirname "$SCRIPT_DIR" )
 ARTIFACT_DIR="$REPO_DIR/artifacts"
 
 mkdir -p ./artifacts/install
-curl -sSL https://dot.net/v1/dotnet-install.sh > ./artifacts/install/dotnet-install.sh
+curl -sSL https://dot.net/v1/dotnet-install.sh > artifacts/install/dotnet-install.sh
 chmod +x ./artifacts/install/dotnet-install.sh
 .artifacts/install/dotnet-install.sh -c 10.0 -InstallDir ./artifacts/dotnet
 
