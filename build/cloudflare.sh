@@ -6,4 +6,4 @@ chmod +x artifacts/install/dotnet-install.sh
 ./artifacts/install/dotnet-install.sh -c 10.0 -InstallDir artifacts/dotnet
 
 ./artifacts/dotnet/dotnet --version
-./artifacts/dotnet/dotnet publish --configuration Release --property:PublishDir="artifacts/releases"
+./artifacts/dotnet/dotnet publish --configuration Release --property:PublishDir="./artifacts/releases"
