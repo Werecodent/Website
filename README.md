@@ -8,7 +8,7 @@ The C# Blazor website for the organization.
 
 ## Contributing
 
-If you're looking to contribute, thanks for your interest. Feel free to submit reports for any issues you can find, or request potential features you'd like to see [here](../../issues). If you wish to contribute code to the project, refer to the [contributing](CONTRIBUTING.md) requirements and the [support](SUPPORT.md) guide for environment setup. Please follow the [code of conduct](CODE_OF_CONDUCT.md) when contributing.
+If you're looking to contribute, thanks for your interest. Feel free to submit reports for any issues you can find, or request potential features you'd like to see [here](../../issues). If you wish to contribute code to the project, refer to the [contributing](../.github/CONTRIBUTING.md) requirements and the [support](../.github/SUPPORT.md) guide for environment setup. Please follow the [code of conduct](../.github/CODE_OF_CONDUCT.md) when contributing.
 
 ## License
 
